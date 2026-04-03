@@ -10,7 +10,6 @@ This repository contains my JavaScript learning journey.
 - Conditional statements (if, else, else if)
 - Switch statements
 - Loops (for loop, while loop)
-- Pattern printing (triangle, reverse triangle)
 
 ## Author:
 Sumit Raj Thakur
