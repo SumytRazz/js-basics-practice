@@ -3,8 +3,9 @@
 This repository contains my JavaScript learning journey.
 
 ## Topics Covered:
-- Console
+- console
 - Variables (let, const, var)
+- Data types
 
 ## Author:
 SumytRazz
