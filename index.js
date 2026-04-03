@@ -66,7 +66,8 @@ let c = 5;
 console.log(b+c); // Add
 console.log(b-c) // Sub
 console.log(b*c) // Multiplication
-console.log(b/c) // Division (Gives remainder)
+console.log(b/c) // Division
+console.log(b%c) // (remainder)
 
 console.log("---------------")
 // comparison
@@ -94,7 +95,7 @@ console.log("---------------")
 // practice
 
 // Find remainder of 15 % 4
-console.log(15/4);
+console.log(15%4);
 
 // Check if 20 is greater than 10
 console.log(20 > 10);
@@ -132,16 +133,188 @@ if (marks2 >= 80) {
 }
 
 console.log("---------------")
+
+// Practice
+
+// Check if number is even or odd
+
+let e = 20;
+if (e % 2 == 0){
+    console.log("Even");
+}else{
+    console.log("Odd");
+}
+
+console.log("---------------")
+// Check if a person can drive (age >= 18)
+
+if(age >= 18){
+    console.log("Can drive");
+}else{
+    console.log("Cannot drive");
+}
+
+console.log("---------------")
+// Check if marks >= 40 → Pass else Fail
+
+if (marks >= 50){
+    console.log("Pass");
+}else{
+    console.log("Fail");
+}
+
+console.log("---------------")
+// Create 3 conditions (A, B, Fail based on marks)
+
+if (marks >= 80){
+    console.log("A");
+}
+else if(marks >= 60){
+    cpmsole.log("B");
+}
+else if(marks >= 40){
+    console.log("C")
+}else{
+    console.log("Fail");
+}
+
+console.log("---------------")
+// Check if number is positive, negative, or zero
+let num = 1
+if (num > 0){
+    console.log("Positive");
+}else if(num < 0){
+    console.log("Neg");
+}else{
+    console.log("Zero");
+}
+
+
+console.log("---------------")
 // Mini Task
 
 //Login check
 
-username ="Sumit";
-pass = "1234";
+let username ="Sumit";
+let pass = "1234";
 
 if (username == "Sumit" && pass == "1234") {
     console.log("Login Successful");
 }
 else {
     console.log("Invalid Credentials");
+}
+
+
+console.log("---------------------")
+// Switch
+
+let day = 2;
+
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+    break;
+    case 3:
+        console.log("Wednesday");
+    break;
+    case 4:
+        console.log("Thrusday");
+    break;
+    case 5:
+        console.log("Friday");
+    break;
+    case 6:
+        console.log("Saturday");
+    break;
+    case 7:
+        console.log("Sunday");
+    break;
+    default:
+        console.log("Invalid day");
+
+}
+
+console.log("---------------")
+// mini task
+
+let choice = 1
+
+switch(choice){
+    case 1: 
+        console.log("Start Game");
+    break;
+    case 2: 
+        console.log("Setting");
+    break;
+    case 3:
+        console.log("Exit");
+    break;
+}
+
+console.log("---------------")
+// Loops
+
+// For loops
+
+for (let i = 1; i <= 5; i++){
+    console.log("Hello", i);
+}
+
+console.log("---------------")
+// while loop
+
+let i = 1;
+while (i <= 5){
+    console.log(i);
+    i++;
+}
+
+console.log("---------------")
+
+// Practice
+
+// Print even numbers from 1–20
+let num2 = 1;
+
+while (num2 <= 10) {
+    console.log(num2);
+    num2++;
+}
+
+console.log("---------------")
+// Print table of 5
+
+num = 5;
+i = 1;
+
+while(i <= 10){
+    console.log(`${num} * ${i} = ${num * i}`);
+    i++;
+}
+
+console.log("---------------")
+// Mini Task
+
+for (let i = 1; i <=5; i++){
+    let row = "";
+
+    for (let j = 1; j <= i; j++){
+        row += "*";
+    }
+    console.log(row);
+}
+
+console.log("---------------")
+for (let i = 5; i >= 1; i--) {
+    let row = "";
+
+    for (let j = 1; j <= i; j++) {
+        row += "*";
+    }
+
+    console.log(row);
 }
