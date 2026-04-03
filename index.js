@@ -108,3 +108,40 @@ let d = 15
 console.log(c > 18 || c < 10);
 
 
+console.log("---------------------")
+// ===== IF ELSE PRACTICE =====
+
+let age4 = 17;
+
+if (age4 >= 18) {
+    console.log("You can vote");
+} else {
+    console.log("You cannot vote");
+}
+
+console.log("---------------")
+// marks example
+let marks2= 65;
+
+if (marks2 >= 80) {
+    console.log("Excellent");
+} else if (marks2 >= 50) {
+    console.log("Pass");
+} else {
+    console.log("Fail");
+}
+
+console.log("---------------")
+// Mini Task
+
+//Login check
+
+username ="Sumit";
+pass = "1234";
+
+if (username == "Sumit" && pass == "1234") {
+    console.log("Login Successful");
+}
+else {
+    console.log("Invalid Credentials");
+}
