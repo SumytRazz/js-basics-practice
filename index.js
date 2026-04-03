@@ -256,7 +256,7 @@ switch(choice){
 }
 
 console.log("---------------")
-// Loops
+// ===== Loops =====
 
 // For loops
 
