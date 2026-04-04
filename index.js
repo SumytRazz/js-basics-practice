@@ -38,6 +38,7 @@ console.log(typeof isStudent);
 console.log(typeof x);
 console.log(typeof y);
 
+console.log("---------------")
 // Practice
 
 let marks = 20;
@@ -49,6 +50,7 @@ console.log(typeof marks);
 console.log(typeof isPassed);
 console.log(typeof a);
 
+console.log("---------------")
 // Mini Task
 
 console.log(`My name is ${name} (${typeof name}).`);
@@ -318,3 +320,80 @@ for (let i = 5; i >= 1; i--) {
 
     console.log(row);
 }
+
+
+console.log("---------------------")
+// ===== FUNCTIONS =====
+
+// Function Declaration
+function greet(){
+    console.log("Hello");
+}
+greet(); //Calling a function.
+greet();
+
+console.log("---------------")
+// Function with Parameters
+
+function detail(name){
+    console.log("Name:" + name);
+}
+detail("Sumit");
+detail("John");
+
+console.log("---------------")
+// Function with return
+
+function add(a, b){
+    return a+b;
+}
+
+let result = add(5, 4);
+console.log(result);
+
+console.log("---------------")
+// Practice Qustions
+
+// Create function to check even/odd
+function even_odd(a){
+    if (a%2==0){
+        console.log("Even");
+    }
+    else{
+        console.log("Odd");
+    }
+return;
+}
+even_odd(10);
+
+console.log("---------------")
+// Create function that returns square of a number
+
+function square(a){
+    return a*a;
+}
+console.log(square(2));
+
+console.log("---------------")
+// Mini Task
+
+// Canculator Function
+
+function calculate(a, b, operator){
+    switch (operator) {
+        case "+":
+            return a + b;
+        case "-":
+            return a - b;
+        case "*":
+            return a * b;
+        case "/":
+            return a / b;
+        default:
+            return "Invalid operator";
+    }
+}
+console.log(calculate(5, 3, "+"));
+console.log(calculate(5, 3, "*"));
+
+console.log("---------------------")
